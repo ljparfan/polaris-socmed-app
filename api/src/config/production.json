@@ -1,0 +1,21 @@
+{
+  "Auth": {
+    "accessToken": "AUTH_ACCESS_TOKEN",
+    "refreshToken": "AUTH_REFRESH_TOKEN"
+  },
+  "Firebase": {
+    "serviceAccount": {
+      "type": "FIREBASE_CERT_TYPE",
+      "project_id": "FIREBASE_CERT_PROJECT_ID",
+      "private_key_id": "FIREBASE_CERT_PRIVATE_KEY_ID",
+      "private_key": "FIREBASE_CERT_PRIVATE_KEY",
+      "client_email": "FIREBASE_CERT_CLIENT_EMAIL",
+      "client_id": "FIREBASE_CERT_CLIENT_ID",
+      "auth_uri": "FIREBASE_CERT_AUTH_URI",
+      "token_uri": "FIREBASE_CERT_TOKEN_URI",
+      "auth_provider_x509_cert_url": "FIREBASE_CERT_AUTH_PROVIDER_CERT_URL",
+      "client_x509_cert_url": "FIREBASE_CERT_CLIENT_CERT_URL"
+    },
+    "bucketName": "BUCKET_NAME"
+  }
+}

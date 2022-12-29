@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray-300;
+  }
+  .inputIcon {
+    @apply flex items-center space-x-1 hover:bg-gray-100 dark:hover:bg-neutral-700 justify-center p-2 cursor-pointer rounded-xl;
+  }
+  .postActionButtons {
+    @apply flex items-center space-x-1 hover:bg-gray-100 dark:hover:bg-neutral-600 flex-grow justify-center p-1 cursor-pointer rounded-lg;
+  }
+  .card {
+    @apply rounded-lg shadow-md bg-white dark:bg-neutral-800 dark:text-white dark:border-neutral-700 dark:border;
+  }
+  .menuItem {
+    @apply hover:bg-gray-50 dark:hover:bg-neutral-600 rounded-lg cursor-pointer p-5;
+  }
+  .menuItemContainer {
+    @apply -m-3 flex items-center rounded-lg;
+  }
+  .menuItemIconButton {
+    @apply rounded-full bg-gray-200 dark:bg-neutral-700 hover:bg-gray-300 dark:hover:bg-neutral-600;
+  }
+  .menuItemIconButtonIcon {
+    @apply h-9 text-gray-700 dark:text-neutral-200 p-2;
+  }
+  .textPrimary {
+    @apply text-indigo-600 dark:text-indigo-400;
+  }
+  .borderPrimary {
+    @apply border-indigo-600 dark:border-indigo-400;
+  }
+  .bgPrimary {
+    @apply bg-indigo-600 dark:bg-indigo-600;
+  }
+  .bgPrimaryDisabled {
+    @apply bg-indigo-400 dark:bg-indigo-300;
+  }
+  .bgPrimaryHover {
+    @apply hover:bg-indigo-500 hover:dark:bg-indigo-500;
+  }
+  .textInput {
+    @apply bg-gray-100 dark:bg-neutral-700 dark:placeholder-neutral-400 dark:text-neutral-200;
+  }
+  .textDefault {
+    @apply text-neutral-800 dark:text-neutral-100;
+  }
+}
